@@ -1,10 +1,284 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-ca">
 <head>
-	<title>Home Page</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Website for Manila travel">
+	<meta name="keywords" content="Philippines, travel, Manila, Paco, explore,adventure">
+	<meta name="robots" content="index, follow">
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<title>Explore Paco</title>
 </head>
+<!-- Body start -->
 <body>
-	<h1>Home Page </h1>
-	<p>The changes are working...yay</p>
+	<div class="container" id="body-container" >
+		<!-- Header start -->
+		<header class="site-header" id="site-header">
+			<!-- Main navigation start -->
+			<nav class="main-nav-container desktop-nav">
+				<div class="logo">
+					<img src="images/explore_paco_logo.png" class="logo" alt="Explore Paco logo">
+				</div>
+				<div class="navigation">
+				<ul class="main-nav clearfix">
+					<li>
+						<a href="contact.html">Contact</a>	
+					</li>
+					<li>
+						<a href="gallery.html">Gallery</a>
+					</li>
+					<li>
+						<a href="about.html">About</a>
+					</li>
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+				</ul>
+				</div>
+				<!-- Search bar -->
+				<!-- Search bar will allow users to search the entire site for the specific information they are looking for -->
+				<div class="search-bar">
+					<input type="text" placeholder="Search...">
+				</div>
+			</nav>
+			<!-- Main navigation end -->
+			<!-- hamburger container start -->
+			<div class="ham"></div>
+			<!-- hamburger container end -->
+			<!-- Mobile navigation start -->
+			<div class="mobile-nav-container clearfix">
+				<nav class="main-nav-container mobile-nav">
+					<ul class="main-nav">
+						<li>
+							<a href="contact.html">Contact</a>	
+						</li>
+						<li>
+							<a href="gallery.html">Gallery</a>
+						</li>
+						<li>
+							<a href="about.html">About</a>
+						</li>
+						<li>
+							<a href="home.html">Home</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<!-- Header end -->
+		<!-- Slideshow start -->
+		<div class="slideshow-container" >
+			 <!-- Full-width images with number and caption text -->
+			 <div class="mySlides fade">
+			    <img src="images/slideshow-1.jpg" alt="slideshow image">
+			 </div>
+			 <div class="mySlides fade">
+			    <img src="images/slideshow-2.jpg" alt="slideshow image">
+			 </div>
+			 <div class="mySlides fade">
+			    <img src="images/slideshow-3.jpg" alt="slideshow image">
+			 </div>
+
+			 <!-- The dots/circles -->
+			 <div style="text-align:center">
+			   <span class="dot" onclick="currentSlide(1)"></span> 
+			   <span class="dot" onclick="currentSlide(2)"></span> 
+			   <span class="dot" onclick="currentSlide(3)"></span> 
+			 </div>
+		</div>
+		<!-- Slideshow end-->
+		<!-- Main start -->
+		<main class="site-content" id="main-content">
+			<!-- Welcome start -->
+			<!-- Welcome message to introduce users to Paco and the website's function as a travel site -->
+			<section class="content" id="welcome">
+				<h1>DULONG PACO: your adventure starts at the end</h1>
+				<p>
+					Dulong Paco, literally "the end of Paco," is definitely the place to be if you're looking to explore the road  untravelled, and Explore Paco is your one-stop website for all your travel needs. Paco is may be a small "barangay," or village, the Metro Manila area but it still has a lot to offer those who want an unconventional getaway. Part of the town Obando, founded in 1753, Paco has a rich history and cultural nuances that you won't find anywhere else. Live and experience life like a local with Paco's friendly community and see what true Filipino culture is really has to offer. Explore Paco has all the tips, tricks, and connections you need to plan a once in a lifetime adventure.
+				</p>
+			</section>
+			<!-- Welcome end -->
+
+			<hr noshade="noshade">
+
+			<!-- News start -->
+			<!-- Links to local news stories from local news sources -->
+			<section class="content" id="news">
+				<h1>NEWS</h1>
+					<ul class="news">
+						<li>
+							<a href="link.html">Best Kept Secrets: Discover 10 Unexpected Amazing Vacation Spots</a>
+						</li>
+						<li>
+							<a href="link.html">Fiesta Time in Brgy. Paco, Obando, Bulacan</a>
+						</li>
+						<li> 
+							<a href="link.html">Points of Interest: Paco, Obando, Bulacan</a>
+						</li>
+					</ul>
+			</section>
+			<!-- News end -->
+
+			<hr noshade="noshade">
+
+			<!-- Explore MNL start -->
+			<!-- Clicking images will open lightbox gallery (to be added later) -->
+
+			<section class="content" id="explore">
+				<a href="gallery.html"><h1>EXPLORE MNL</h1></a> 
+				<div class="imgRow">
+					<div class="imgColumn">
+						<img src="images/racal.jpg" alt="racal">
+					</div>
+					<div class="imgColumn">
+						<img src="images/river-bridge.jpg" alt="river bridge">
+					</div>
+					<div class="imgColumn">
+						<img src="images/local-man.jpg" alt="local man">
+					</div>
+				</div>
+			</section>
+			<!-- Explore MNL end -->
+
+			<hr noshade="noshade">
+
+			<!-- Helpful links start -->
+				<div class="main-links-list-container clearfix">
+					<!-- Shop list start -->
+					<!-- Navigations will link users to website shop for specific kinds of items -->
+					<div class="list-column">
+					<p class="main-links-list" id="shop">Shop</p>
+					<ul>
+						<li class="main-links-list-item">
+							<a href="https://shop.explorepaco.com/destination-guides.html">Destination Guides</a>
+						</li>
+						<li class="main-links-list-item">
+							<a href="https://shop.explorepaco.com/ebooks.html">eBooks</a>
+						</li>
+						<li class="main-links-list-item">
+							<a href="https://shop.explorepaco.com/pictorials-and-gifts.html">Pictorial and Gifts</a>
+						</li>
+						<li class="main-links-list-item">
+							<a href="https://shop.explorepaco.com/phrasebooks.html">Phrasebooks</a>
+						</li>
+						<li class="main-links-list-item">
+							<a href="https://shop.explorepaco.com/activity-guides.html">Activity Guides</a>
+						</li>
+						<li class="main-links-list-item">
+							<a href="https://shop.explorepaco.com/special-offers.html">Special Offers</a>
+						</li>
+					</ul>
+					</div>
+					<!-- Shop list end -->
+					<!-- Forum list start -->
+					<!-- Navigation will link users to interactive forums on the site -->
+					<div class="list-column">
+					<p class="main-links-list" id="forum">Forum</p>
+					<ul>
+						<li class="main-links-list-item">
+							<a href="https://explorepaco.com/country-forum.html">Country Forums</a>
+						</li>
+						<li class="main-links-list-item">
+							<a href="https://explorepaco.com/Talk-to-EP.html">Talk to Explore Paco</a>
+						</li>
+						<li class="main-links-list-item">
+							<a href="https://explorepaco.com/interest-forums.html">Interest Forums</a>
+						</li>
+						<li class="main-links-list-item">
+							<a href="https://explorepaco.com/travel-buddies.html">Travel Buddies</a>
+						</li>
+					</ul>
+					</div>
+					<!-- Forum end -->
+					<!-- Interests list start -->
+					<!-- Navigation will link users to subject specific guides to help them personalize their trips -->
+					<div class="list-column">
+					<p class="main-links-list" id="interests">Interests</p>
+					<ul>
+						<li class="main-links-list-item">
+							<a href="https://explorepaco.com/adventure-travel.html">Adventure Travel</a>
+						</li>
+						<li class="main-links-list-item">
+							<a href="https://explorepaco.com/beaches.html">Beaches</a>
+						</li>
+						<li class="main-links-list-item">
+							<a href="https://explorepaco.com/budget-travel.html">Budget Travel</a>
+						</li>
+						<li class="main-links-list-item">
+							<a href="https://explorepaco.com/family-travel.html">Family Travel</a>
+						</li>
+						<li class="main-links-list-item">
+							<a href="https://explorepaco.com/festivals-events.html">Festivals and Events</a>
+						</li>
+						<li class="main-links-list-item">
+							<a href="https://explorepaco.com/food-and-drink.html">Food and Drinks</a>
+						</li>
+						<li class="main-links-list-item">
+							<a href="https://explorepaco.com/honeymoons.html">Honeymoons and Romance</a>
+						</li>
+						<li class="main-links-list-item">
+							<a href="https://explorepaco.com/wildlife-and-nature.html">Wildlife and Nature</a>
+						</li>
+						<li class="main-links-list-item">
+							<a href="https://explorepaco.com/round-the-world.html">Around the World Travel</a>
+						</li>
+					</ul>
+					</div>
+					<!-- Interests list end -->
+					<!-- Travel booking list start -->
+					<!-- Navigation links to help users sort out the logistics of their trips -->
+					<div class="list-column">
+					<p class="main-links-list" id="travel-booking">Travel Booking</p>
+					<ul>
+						<li class="main-links-list-item">
+							<a href="https://explorepaco.com/hostels.html">Hostels</a>
+						</li>
+						<li class="main-links-list-item">
+							<a href="https://explorepaco.com/flights.html">Flights</a>
+						</li>
+						<li class="main-links-list-item">
+							<a href="https://explorepaco.com/insurance.html">Insurance</a>
+						</li>
+					</ul>
+					</div>
+				</div>
+		</main>
+		<!-- Main end -->
+		
+		<hr noshade="noshade">
+
+		<!-- Footer start -->
+		<footer class="site-footer" id="footer">
+			<!-- Social media (SNS)-->
+			<!-- SNS buttons will link users to Explore Paco social media accounts -->
+			<section id="social-media-container">
+			<div class="site-footer-social">
+				<a href="www.instagram.com">
+					<img src="images/instagram.png" alt="Instagram logo">
+				</a>
+				<a href="www.youtube.com">
+					<img src="images/youtube.png" alt="Youtube logo">
+				</a>
+				<a href="www.twitter.com">
+					<img src="images/twitter.png" alt="Twitter logo">
+				</a>
+				<a href="www.facebook.com">
+					<img src="images/facebook.png" alt="Facebook logo">
+				</a>
+			</div>
+			</section>
+			<!-- Copyright start-->
+			<!-- Copyright information for the website and the photographs -->
+			<div class="site-footer-copyright" id="copyright">
+				<p>Photographs: Copyright &copy; Alberto Marteja</p>
+				<p>Copyright &copy; 2018 Abby Marteja</p>
+			</div>
+			<!-- Copyright end -->
+		</footer>
+		<!-- Footer end -->
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="scripts/script.js"></script>
+	<script type="text/javascript" src="scripts/slider.js"></script>
 </body>
+<!-- Body end -->
 </html>
