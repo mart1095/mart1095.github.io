@@ -186,19 +186,13 @@ a:hover{
 }
 
 /*mobile navigation*/
-.ham {
-    float: right;
-    /*background: #BBDEFB;*/
-}
 
 .ham {
-        
         height: 15px;
         margin:15px;
         padding-top: 5px;
         position: relative;
         float: right;
-        /*this is used to create a pointer for element*/
         cursor: pointer;
     }
 
@@ -490,7 +484,7 @@ aside p {
     .ham {
         display: none;
         height: 15px;
-        margin:15px;
+        margin: 15px;
         padding-top: 5px;
         position: relative;
         float: right;
