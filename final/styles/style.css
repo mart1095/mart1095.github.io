@@ -298,14 +298,12 @@ a:hover{
 
 /*explore mnl styles*/
 
-/* Three image containers (use 25% for four, and 50% for two, etc) */
 .imgColumn {
   float: left;
   width: 33.33%;
   padding: 5px;
 }
 
-/* Clear floats after image containers */
 .imgRow::after {
   content: "";
   clear: both;
@@ -465,6 +463,7 @@ aside p {
     form {
         width: 100%;
     }
+
 }
 
 @media only screen and (min-width: 768px) {
